@@ -18,13 +18,13 @@ El interés en este equipo es personal; la herramienta en sí está diseñada pa
 
 ## 🏗 Arquitectura del proyecto
 
-Proyecto completo planificado por fases:
+Sistema completo planificado por fases. Cada fase futura vivirá en su propio repositorio, que se enlazará aquí a medida que se creen. Este repositorio corresponde a la **Fase 1**.
 
 - **Fase 1 — Data Analytics:** recolección, limpieza y análisis de datos (este repo)
-- **Fase 2 — Backend/API:** API REST que sirve los datos procesados
-- **Fase 3 — Dashboard web:** frontend que consume la API
-- **Fase 4 — Mobile:** app Android que consume la API
-- **Fase 5 — DevOps:** Docker + CI/CD
+- **Fase 2 — Backend/API:** API REST que sirve los datos procesados *(repo a crear)*
+- **Fase 3 — Dashboard web:** frontend que consume la API *(repo a crear)*
+- **Fase 4 — Mobile:** app Android que consume la API *(repo a crear)*
+- **Fase 5 — DevOps:** Docker + CI/CD sobre los repos anteriores *(repo a crear)*
 
 ## 🗂 Estructura del proyecto
 

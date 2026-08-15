@@ -18,13 +18,13 @@ The interest in this team is personal; the tool itself is designed to work with 
 
 ## 🏗 Project architecture
 
-Full project planned in phases:
+Complete system planned in phases. Each future phase will live in its own repository, which will be linked here as they are created. This repository corresponds to **Phase 1**.
 
 - **Phase 1 — Data Analytics:** data collection, cleaning and analysis (this repo)
-- **Phase 2 — Backend/API:** REST API serving the processed data
-- **Phase 3 — Web dashboard:** frontend consuming the API
-- **Phase 4 — Mobile:** Android app consuming the API
-- **Phase 5 — DevOps:** Docker + CI/CD
+- **Phase 2 — Backend/API:** REST API serving the processed data *(repo to be created)*
+- **Phase 3 — Web dashboard:** frontend consuming the API *(repo to be created)*
+- **Phase 4 — Mobile:** Android app consuming the API *(repo to be created)*
+- **Phase 5 — DevOps:** Docker + CI/CD on the above repositories *(repo to be created)*
 
 ## 🗂 Project structure
 
