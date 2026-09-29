@@ -23,13 +23,24 @@ wheels/
 # Jupyter Notebook
 .ipynb_checkpoints/
 
-# Datasets
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
+# Datasets (arquitectura Medallion, versionada por fecha de corrida)
+data/manual_exports/*
+!data/manual_exports/.gitkeep
+data/match_exports/*
+!data/match_exports/.gitkeep
+data/bronze/*
+!data/bronze/.gitkeep
+data/silver/*
+!data/silver/.gitkeep
+data/database/*.db
+data/database/*.db-*
+
+# Logs
+logs/*
+!logs/.gitkeep
 
 # Virtual environments
+.env
 .venv/
 venv/
 env/
@@ -46,3 +57,12 @@ Thumbs.db
 # Reports
 reports/figures/*
 !reports/figures/.gitkeep
+reports/dashboard_data/*
+!reports/dashboard_data/.gitkeep
+
+# Carpeta de cuarentena de archivos reemplazados (revisar y borrar manualmente)
+_to_delete/
+
+# Notas personales, no forman parte del repo publico
+roadmap_portafolio.md
+AGENTS.md
